@@ -1,19 +1,19 @@
 {
-  "name": "script.js",
-  "version": "1.0.0",
-  "description": "Express Introduction",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Express",
-    "NodeJS"
-  ],
-  "author": "Kent Worthington",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {}
+   "name": "express-intro",
+   "version": "1.0.0",
+   "description": "Express Introduction",
+   "main": "server/app.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "keywords": [
+      "Express",
+      "NodeJS"
+   ],
+   "author": "Kent Worthington",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.17.1"
+   },
+   "devDependencies": {}
 }

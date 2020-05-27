@@ -2,9 +2,35 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Success!</title>
+      <script src="jquery.js" defer></script>
+      <script src="script.js" defer></script>
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      />
+      <link rel="stylesheet" href="style.css" />
+      <title>Color Blocks</title>
    </head>
    <body>
-      <h1>Node is working!</h1>
+      <div class="content">
+         <div class="counts">
+            <p id="redCount">Red Count: 1</p>
+            <p id="yellowCount">Yellow Count: 1</p>
+            <p id="greenCount">Green Count: 1</p>
+            <p id="blueCount">Blue Count: 1</p>
+         </div>
+         <div class="buttonMenu">
+            <button class="btn" id="red">Red</button>
+            <button class="btn" id="yellow">Yellow</button>
+            <button class="btn" id="green">Green</button>
+            <button class="btn" id="blue">Blue</button>
+         </div>
+         <div class="boxes">
+            <div class="red box"></div>
+            <div class="yellow box"></div>
+            <div class="green box"></div>
+            <div class="blue box"></div>
+         </div>
+      </div>
    </body>
 </html>
